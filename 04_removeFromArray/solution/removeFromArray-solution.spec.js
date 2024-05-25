@@ -5,7 +5,7 @@ describe('removeFromArray', () => {
     expect(removeFromArray([1, 2, 3, 4], 3)).toEqual([1, 2, 4]);
   });
   test('removes multiple values', () => {
-    expect(removeFromArray([1, 2, 3, 4], 3, 2)).toEqual([1, 4]);
+    expect(removeFromArray([1, 2, 3, 4], 2, 3)).toEqual([1, 4]);
   });
   test('removes multiple of the same value', () => {
     expect(removeFromArray([1, 2, 2, 3], 2)).toEqual([1, 3]);
